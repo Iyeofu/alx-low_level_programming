@@ -66,9 +66,3 @@ char *postfix_match(char *str, char *postfix)
 		return (postfix_match(str, postfix));
 	}
 
-	return (postfix);
-}
-
-/**
- * wildcmp - Compares two strings, considering wildcard characters.
-
