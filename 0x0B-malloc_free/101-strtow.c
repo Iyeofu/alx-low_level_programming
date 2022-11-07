@@ -45,5 +45,4 @@ int count_words(char *str)
 			words++;
 			index += word_len(str + index);
 		}
-	}
 
